@@ -7,4 +7,3 @@
    
    docs/sphinx
    docs/manual
-   docs/meta
