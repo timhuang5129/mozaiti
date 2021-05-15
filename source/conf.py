@@ -13,6 +13,8 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
+import sphinx_rtd_theme
+import sphinx_markdown_tables
 
 
 # -- Project information -----------------------------------------------------
@@ -39,7 +41,7 @@ source_suffix = ['.rst', '.md']
 # ones.
 extensions = [
     'recommonmark',
-    'sphinx-markdown-tables',
+    'sphinx_markdown_tables',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
