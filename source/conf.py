@@ -48,7 +48,7 @@ extensions = [
     'sphinx.ext.mathjax',
     'sphinx.ext.viewcode',
     'sphinx_togglebutton',
-    #'sphinx.ext.todo',
+    'sphinx.ext.todo',
     'hidden_code_block'
 ]
 
@@ -64,6 +64,16 @@ html_theme_options = {
     'navigation_depth': 6,
 }
 
+todo_include_todos = True
+#todo_emit_warnings = True
+
+#html_context = {
+#    'display_github': True,
+#    'github_user': 'buskill',
+#    'github_repo': 'buskill-app',
+#    'github_version': 'master/docs/',
+#}
+
 # -- Options for HTML output -------------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
@@ -75,3 +85,30 @@ html_theme = 'sphinx_rtd_theme'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+# Extensions to theme docs
+def setup(app):
+    from sphinx.domains.python import PyField
+    from sphinx.util.docfields import Field
+
+    app.add_object_type(
+        'confval',
+        'confval',
+        objname='configuration value',
+        indextemplate='pair: %s; configuration value',
+        doc_field_types=[
+            PyField(
+                'type',
+                label=_('Type'),
+                has_arg=False,
+                names=('type',),
+                bodyrolename='class'
+            ),
+            Field(
+                'default',
+                label=_('Default'),
+                has_arg=False,
+                names=('default',),
+            ),
+        ]
+    )
