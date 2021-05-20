@@ -8,7 +8,6 @@ Welcome to Mozaiti's documentation!
 
 .. toctree::
    :maxdepth: 6
-   :caption: Contents:
    
    about/index
 
