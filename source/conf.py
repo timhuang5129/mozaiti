@@ -49,7 +49,7 @@ extensions = [
     'sphinx.ext.viewcode',
     'sphinx_togglebutton',
     'sphinx.ext.todo',
-    'hidden_code_block'
+    '_static.imgs.hidden_code_block'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
