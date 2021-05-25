@@ -72,6 +72,8 @@
 
    lots_of_code = "this text block"
 
+.. raw:: html
+
    </details>
 
 .. raw:: html
