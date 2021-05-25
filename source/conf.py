@@ -16,7 +16,10 @@ sys.path.insert(0, os.path.abspath('.'))
 print(os.path.abspath('.'))
 import sphinx_rtd_theme
 from sphinx.locale import _
-
+from _static.imgs.hidden_code_block import HiddenCodeBlock
+from _static.imgs.hidden_code_block import depart_hcb_html
+from _static.imgs.hidden_code_block import visit_hcb_html
+from _static.imgs.hidden_code_block import hidden_code_block
 
 # -- Project information -----------------------------------------------------
 
@@ -49,7 +52,7 @@ extensions = [
     'sphinx.ext.viewcode',
     'sphinx_togglebutton',
     'sphinx.ext.todo',
-    '_static.imgs.hidden_code_block'
+    #'_static.imgs.hidden_code_block'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -92,6 +95,9 @@ html_static_path = ['_static']
 def setup(app):
     from sphinx.domains.python import PyField
     from sphinx.util.docfields import Field
+    
+    app.add_directive('hidden-code-block', HiddenCodeBlock)
+    app.add_node(hidden_code_block, html=(visit_hcb_html, depart_hcb_html))
 
     app.add_object_type(
         'confval',
