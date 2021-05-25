@@ -97,7 +97,13 @@ def setup(app):
     from sphinx.util.docfields import Field
     
     app.add_directive('hidden-code-block', HiddenCodeBlock)
-    app.add_node(hidden_code_block, html=(visit_hcb_html, depart_hcb_html))
+    app.add_node(hidden_code_block,
+        html=(visit_hcb_html, depart_hcb_html),
+        latex=(visit_hcb_html, depart_hcb_html),
+        text=(visit_hcb_html, depart_hcb_html),
+        man=(visit_hcb_html, depart_hcb_html),
+        texinfo=(visit_hcb_html, depart_hcb_html),
+    )
 
     app.add_object_type(
         'confval',
