@@ -16,10 +16,10 @@ sys.path.insert(0, os.path.abspath('.'))
 print(os.path.abspath('.'))
 import sphinx_rtd_theme
 from sphinx.locale import _
-from _static.imgs.hidden_code_block import HiddenCodeBlock
-from _static.imgs.hidden_code_block import depart_hcb_html
-from _static.imgs.hidden_code_block import visit_hcb_html
-from _static.imgs.hidden_code_block import hidden_code_block
+from .hidden_code_block import HiddenCodeBlock
+from .hidden_code_block import depart_hcb_html
+from .hidden_code_block import visit_hcb_html
+from .hidden_code_block import hidden_code_block
 
 # -- Project information -----------------------------------------------------
 
