@@ -7,3 +7,4 @@
    
    docs/sphinx
    docs/manual
+   docs/toggle
