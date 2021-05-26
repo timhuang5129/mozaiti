@@ -1,5 +1,5 @@
 # mozaiti
-============
+
 The distance between you and me is only one star.
 
 The distance between you and me is only one look, you know！
