@@ -3,10 +3,10 @@
 .. hint:: 
 
  - Windows Server 2012 R2 Hyper-V
- - `[实时迁移问题疑难解答] https://docs.microsoft.com/zh-CN/troubleshoot/windows-server/virtualization/troubleshoot-live-migration-issues`_
- - `[Live Migration via Constrained Delegation with Kerberos in Windows Server 2016] https://techcommunity.microsoft.com/t5/virtualization/live-migration-via-constrained-delegation-with-kerberos-in/ba-p/382334`_
- - `[为无故障转移群集的实时迁移设置主机] https://docs.microsoft.com/zh-cn/windows-server/virtualization/hyper-v/deploy/Set-up-hosts-for-live-migration-without-Failover-Clustering`_
- - `[解决 Windows Server 2012 Hyper-V 实时迁移时遇到的 0x80090303] http://goxia.maytide.net/read.php/1634.htm`_
+ - `[实时迁移问题疑难解答] <https://docs.microsoft.com/zh-CN/troubleshoot/windows-server/virtualization/troubleshoot-live-migration-issues>`_
+ - `[Live Migration via Constrained Delegation with Kerberos in Windows Server 2016] <https://techcommunity.microsoft.com/t5/virtualization/live-migration-via-constrained-delegation-with-kerberos-in/ba-p/382334>`_
+ - `[为无故障转移群集的实时迁移设置主机] <https://docs.microsoft.com/zh-cn/windows-server/virtualization/hyper-v/deploy/Set-up-hosts-for-live-migration-without-Failover-Clustering>`_
+ - `[解决 Windows Server 2012 Hyper-V 实时迁移时遇到的 0x80090303] <http://goxia.maytide.net/read.php/1634.htm>`_
 
 1. 通过PS实时迁移VM
 ----------------------
