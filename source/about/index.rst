@@ -10,3 +10,4 @@
    docs/toggle
    docs/psencode
    docs/hyperv
+   docs/gogs
