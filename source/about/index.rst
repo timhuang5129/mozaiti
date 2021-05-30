@@ -11,3 +11,4 @@
    docs/psencode
    docs/hyperv
    docs/gogs
+   docs/git
