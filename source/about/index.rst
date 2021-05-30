@@ -9,3 +9,4 @@
    docs/manual
    docs/toggle
    docs/psencode
+   docs/hyperv
