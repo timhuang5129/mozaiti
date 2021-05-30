@@ -10,6 +10,7 @@ Welcome to Mozaiti's documentation!
    :maxdepth: 6
    
    about/index
+   tsra/index
 
 
 
