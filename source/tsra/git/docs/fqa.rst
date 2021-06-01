@@ -1,6 +1,10 @@
 FQA
 =======
 
+1. git init 与 git init --bare 的区别
+---------------------------------------
+
+ - `[git init 与 git init --bare 的区别] <https://www.cnblogs.com/langren1992/p/10161538.html>`_
 
 2. git commit和git push的区别
 --------------------------------
