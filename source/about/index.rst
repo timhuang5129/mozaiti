@@ -6,8 +6,7 @@
    :caption: Contents:
    
    docs/sphinx
-   docs/manual
-   docs/toggle
+   manual/index
    docs/psencode
    docs/hyperv
    docs/gogs
