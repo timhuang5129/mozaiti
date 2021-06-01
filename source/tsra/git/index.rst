@@ -6,3 +6,4 @@ Git
    docs/git
    docs/github
    docs/gogs
+   docs/fqa
