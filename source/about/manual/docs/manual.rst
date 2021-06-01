@@ -106,7 +106,7 @@ Changelog
 ------
 这篇文章来自我的Github,请参考 reference_。
 
-.. _reference: http://10.76.219.169:8899/myref/reStructuredText(rst)_manual.pdf
+.. _reference: https://www.jianshu.com/p/1885d5570b37
 
 链接2
 ------
@@ -149,11 +149,11 @@ This is ``Inline Literals``. HTML tag is <tt>. 等宽字体.
 
 这篇文章来自我的Github,请参考 reference3_。
 
-.. _reference3: ../../_static/myref/reStructuredText(rst)_manual.pdf
+.. _reference3: https://www.jianshu.com/p/1885d5570b37
 
-链接图片
------------
-.. image:: ../../_static/imgs/sphinxcontrib-osexample.png
+多选项卡切换sphinxcontrib-osexample pypi
+----------------------------------------
+.. image:: ../../../_static/imgs/logo.gif
 
 链接图片2
 ------------
