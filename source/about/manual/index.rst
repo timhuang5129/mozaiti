@@ -8,3 +8,4 @@ Manual
    docs/ref
    docs/kw
    docs/toggle
+   docs/manual
