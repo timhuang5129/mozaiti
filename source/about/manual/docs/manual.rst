@@ -157,7 +157,7 @@ This is ``Inline Literals``. HTML tag is <tt>. 等宽字体.
 
 链接图片2
 ------------
-.. image:: ../../_static/imgs/1.png
+.. image:: ../../../_static/imgs/logo.gif
    :width: 300
    :height: 300
    
