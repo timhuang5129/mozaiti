@@ -7,6 +7,7 @@
 
  - CentOS 7.6
  - git-v2.24.1.tar.gz
+ - `[基于docker搭建gogs] <https://www.cnblogs.com/yuexiaoyun/articles/11946103.html>`_
  - `[申请Let's Encrypt永久免费SSL证书] <https://www.cnblogs.com/sage-blog/p/10302934.html>`_
  - `[一步搞定私有Git服务器部署(Gogs)] <https://www.jianshu.com/p/424627516ef6>`_
  - `[从0开始学习GitHub系列] <https://www.jianshu.com/p/424627516ef6>`_
