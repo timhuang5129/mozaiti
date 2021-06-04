@@ -102,6 +102,11 @@
 	    4 rows in set (0.02 sec)
 
 
+
+.. raw:: html
+
+	<hr width="700" size="20"/>
+
 .. hidden-code-block:: bash
         :starthidden: False
         :linenos:
