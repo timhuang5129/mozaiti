@@ -101,9 +101,11 @@
 	    +--------------+-----------+
 	    4 rows in set (0.02 sec)
 
-4. git clone
----------------------
-.. code-block:: bash
+
+.. hidden-code-block:: bash
+        :starthidden: False
+        :linenos:
+        :label: + git clone test
 
 	#Microsoft Windows 10 企业版 2016 LTS 10.0.14393
 	#需要安装.net4.7.2或以上, 安装过程报错"1%不是Win32..."
