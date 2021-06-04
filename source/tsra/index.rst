@@ -15,7 +15,7 @@ TSRA
    sharepoint/index
    ad/index
    python/index
-   bashshell/index
+   bash/index
    mysql/index
    zabbix/index
    ocsng/index
