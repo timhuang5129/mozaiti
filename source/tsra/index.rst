@@ -4,7 +4,6 @@ TSRA
 .. toctree::
    :maxdepth: 6
 
-   basicskills/index
    graphviz/index
    centos/index
    django/index
@@ -13,7 +12,6 @@ TSRA
    jumpserver/index
    ansible/index
    sharepoint/index
-   ad/index
    python/index
    bash/index
    mysql/index
