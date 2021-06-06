@@ -66,7 +66,7 @@ Section to cross-reference
 
 .. _my-figure:
 	
-.. figure:: whatever.png
+.. figure:: ../../../_static/imgs/logo.gif
 	
 	Figure caption
 	
