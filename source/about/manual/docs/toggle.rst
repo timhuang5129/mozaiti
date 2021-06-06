@@ -7,7 +7,7 @@
 
 	.. admonition:: Look at that, an image!
 
-		.. image:: ../../_static/imgs/logo.gif
+		.. image:: ../../../_static/imgs/logo.gif
 
 .. raw:: html
 
