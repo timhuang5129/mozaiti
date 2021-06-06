@@ -153,11 +153,11 @@ This is ``Inline Literals``. HTML tag is <tt>. 等宽字体.
 
 多选项卡切换sphinxcontrib-osexample pypi
 ----------------------------------------
-.. image:: ../../_static/imgs/logo.gif
+.. image:: ../../../_static/imgs/logo.gif
 
 链接图片2
 ------------
-.. image:: ../../_static/imgs/logo.gif
+.. image:: ../../../_static/imgs/logo.gif
    :width: 300
    :height: 300
    
