@@ -11,6 +11,6 @@
 	
 	DJANGO_CELERY_BEAT_TZ_AWARE = False
 	
-	app.conf.enable_utc = True
+	app.conf.enable_utc = False
 	
 	app.conf.timezone = "Asia/Shanghai"
