@@ -4,3 +4,4 @@ CentOS
    :maxdepth: 6
 
    docs/base
+   docs/hdisk
