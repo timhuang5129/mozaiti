@@ -7,7 +7,7 @@
 
 	CELERY_TIMEZONE = 'Asia/Shanghai'
 	
-	CELERY_ENABLE_UTC=True
+	CELERY_ENABLE_UTC = False
 	
 	DJANGO_CELERY_BEAT_TZ_AWARE = False
 	
