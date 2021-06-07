@@ -6,8 +6,11 @@
  - `[celery 定时任务不执行的问题解决] <https://blog.csdn.net/Kwoky/article/details/104562735>`_
 
 	CELERY_TIMEZONE = 'Asia/Shanghai'
+	
 	CELERY_ENABLE_UTC=True
+	
 	DJANGO_CELERY_BEAT_TZ_AWARE = False
 	
 	app.conf.enable_utc = True
+	
 	app.conf.timezone = "Asia/Shanghai"
