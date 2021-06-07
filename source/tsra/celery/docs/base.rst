@@ -11,6 +11,10 @@
 	
 	DJANGO_CELERY_BEAT_TZ_AWARE = False
 	
+	from django.utils import timezone
+	
 	app.conf.enable_utc = False
 	
 	app.conf.timezone = "Asia/Shanghai"
+	
+	app.now = timezone.now
