@@ -45,21 +45,39 @@
 
 
 	Package                   Version
+	
 	------------------------- ---------
+	
 	aioredis                  1.3.1
+	
 	asgiref                   3.2.3
+	
 	celery                    4.4.7
+	
 	Django                    2.1.11
+	
 	django-celery-beat        1.4.0
+	
 	django-celery-results     1.0.4
+	
 	django-redis              4.11.0
+	
 	django-redis-cache        2.1.1
+	
 	django-redis-sessions     0.6.1
+	
 	django-rest-swagger       2.1.2
+	
 	django-timezone-field     3.1
+	
 	flower                    0.9.3
+	
 	kombu                     4.6.11
+	
 	paramiko                  2.4.2
+	
 	python-crontab            2.4.0
+	
 	pytz                      2018.3
+	
 	redis                     3.5.3
