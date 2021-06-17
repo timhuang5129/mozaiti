@@ -5,3 +5,4 @@ CentOS
 
    docs/base
    docs/hdisk
+   docs/yum
