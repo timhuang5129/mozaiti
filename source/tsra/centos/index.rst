@@ -7,5 +7,6 @@ CentOS
    docs/network
    docs/hdisk
    docs/yum
+   docs/ntp
    docs/ssh
    docs/idp
