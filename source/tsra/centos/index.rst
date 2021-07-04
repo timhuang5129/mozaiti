@@ -8,3 +8,4 @@ CentOS
    docs/hdisk
    docs/yum
    docs/ssh
+   docs/idp
