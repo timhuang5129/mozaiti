@@ -7,3 +7,7 @@ Docker
    docs/ktp
    docs/install
    docs/mysql
+   docs/redis
+   docs/posteio
+   docs/gogs
+   docs/jumpserver
