@@ -10,9 +10,9 @@ Docker安装
  - [root@docker01 ~]# mkdir -pv /mydev/dockerlib
  - [root@docker01 ~]# cp -r /var/lib/docker  /mydev/dockerlib
  - [root@docker01 ~]# mv /var/lib/docker /var/lib/docker.bak
- - [root@docker01 ~]# ln -s /mydev/docker /var/lib/docker
+ - [root@docker01 ~]# ln -s /mydev/dockerlib /var/lib/docker
  - [root@docker01 ~]# ls -al /var/lib/
- - lrwxrwxrwx   1 root    root      18 May  3 19:55 docker -> /jumpsdata/docker/
+ - lrwxrwxrwx   1 root    root      18 May  3 19:55 docker -> /mydev/dockerlib/
  - [root@docker01 ~]# systemctl start docker
  - [root@docker01 ~]# docker info
 
