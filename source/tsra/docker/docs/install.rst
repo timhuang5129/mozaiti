@@ -19,6 +19,7 @@ Docker安装
 1. 基本命令
 ----------------------
  - docker info                      #查看docker信息
+ - docker inspect 919e3fcba0cc/name #查看容器信息
  - docker images                    #查看所有镜像
  - docker images -q                 #查看所有镜像的ID
  - docker ps                        #列出正在运行的容器
