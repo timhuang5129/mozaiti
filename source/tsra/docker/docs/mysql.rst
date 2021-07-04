@@ -146,3 +146,4 @@ MySQL_Docker
 	[root@docker01 ~]# docker ps
 	    CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                               NAMES
 	    c340c8752c4a        mysql:5.7.27        "docker-entrypoint.s"   About an hour ago   Up About an hour    0.0.0.0:3306->3306/tcp, 33060/tcp   mysql_v5.7.27
+	[root@docker01 ~]# docker exec -it mysql_v5.7.27 /bin/bash
