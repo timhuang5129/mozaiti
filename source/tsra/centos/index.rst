@@ -7,3 +7,4 @@ CentOS
    docs/network
    docs/hdisk
    docs/yum
+   docs/ssh
