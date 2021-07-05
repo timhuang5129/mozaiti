@@ -4,3 +4,4 @@ Django
    :maxdepth: 6
 
    docs/base
+   docs/drf
