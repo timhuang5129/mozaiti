@@ -4,3 +4,4 @@ Jumpserver
    :maxdepth: 6
 
    docs/base
+   docs/vdc
