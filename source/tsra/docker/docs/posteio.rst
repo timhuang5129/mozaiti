@@ -82,5 +82,6 @@ Posteio_docker
 ::
 
 	客户端PC添加hosts:  192.168.1.119 mx.tim.com
+	首次访问https://192.168.1.119会进行基本设置
 	浏览器访问https://192.168.1.119/admin/login
 	https://192.168.1.119/webmail/
