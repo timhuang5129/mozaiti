@@ -1,10 +1,5 @@
-安装方式
-----------
- - 在线安装Docker
- - 利用yum缓存离线部署Docker
-
 1. 硬/软链接
---------------
+---------------
 .. code-block:: bash
 
 	ln -s 是创建软链接, 不会占用磁盘空间
@@ -17,7 +12,7 @@
 	ln -s /data/docker /var/lib/docker
 
 2. 修改用户shell
-------------------
+-------------------
 .. code-block:: bash
 
 	查看/etc/passwd 发现用户的shell 为false! 所以需要修改用户shell, 命令如下：

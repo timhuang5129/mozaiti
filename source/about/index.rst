@@ -11,3 +11,5 @@
    docs/hyperv
    docs/gogs
    docs/git
+   docs/toggle
+   docs/manual

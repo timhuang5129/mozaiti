@@ -46,15 +46,13 @@ Sphinx手册
 .. warning::
 
  - warning
- 
- 
- 2. install hidden_code_block
- -------------------------------
- ::
- 
-  放在conf同目录, 在conf中新增扩展，以及在set(app)中设置
-  如放在_static下，conf扩展里写上路径
-  
- 
 
-`[bgimg] <https://login.oracle.com/mysso/sso_loginui/sso-f17v2-bgimg.jpg>`_
+
+2. install hidden_code_block
+-------------------------------
+::
+
+	放在conf同目录, 在conf中新增扩展，以及在set(app)中设置
+	如放在_static下，conf扩展里写上路径  
+
+	`[bgimg] <https://login.oracle.com/mysso/sso_loginui/sso-f17v2-bgimg.jpg>`_

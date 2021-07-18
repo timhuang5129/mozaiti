@@ -7,10 +7,10 @@ MySQL_Docker
  - `[MySQL中的排序规则] <https://www.jb51.net/article/48775.htm>`_
  - `[MySQL中的utf8mb4、utf8mb4_unicode_ci、utf8mb4_general_ci] <https://www.cnblogs.com/amyzhu/p/9595665.html>`_
  - `[MySQL默认字符集] <https://www.jb51.net/article/186609.htm>`_
-  - MySQL 8.0.1及更高版本中,将 utf8mb4_0900_ai_ci 作为默认排序规则
-  - utf8mb4_unicode_ci
- - 默认使用utf8mb4_general_ci
+ - MySQL 8.0.1及更高版本中,将 utf8mb4_0900_ai_ci 作为默认排序规则
+ - 默认优先使用utf8mb4_general_ci, 特殊情况使用utf8mb4_unicode_ci
  - 总结
+ 
   - utf8_unicode_ci和utf8_general_ci对中、英文来说没有实质的差别。
   - utf8mb4_general_ci在比较和排序的时候更快,
   - 但是utf8mb4_unicode_ci比utf8mb4_general_ci要来得精确, 能够处理特殊字符。

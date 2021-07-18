@@ -3,4 +3,4 @@ Celery
 .. toctree::
    :maxdepth: 6
 
-   docs/base
+   docs/fqa

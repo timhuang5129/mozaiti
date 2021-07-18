@@ -22,3 +22,5 @@ TSRA
    docker/index
    git/index
    pptx/index
+   devops/index
+   nodejs/index
