@@ -36,7 +36,7 @@
 		shell中使用绝对路径
 		chmod a+x test.sh
 		tail -f -n 10 /var/log/cron
-		systemclt status crond
+		systemctl status crond
 
 	.. seealso::
 		:class: dropdown, toggle-shown
