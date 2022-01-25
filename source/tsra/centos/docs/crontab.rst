@@ -6,14 +6,14 @@
 
 	* 基本语法::
 
-		*           *        *        *        *      user     command
-		minute      hour    day       month   week    root   command
-		分          时       天      月        星期   用户    命令
+		*           *        *        *        *     command
+		minute      hour    day       month   week   command
+		分          时       天      月        星期   命令
 
 	* 语法示例::
 
-		* * * * * root /bin/bash /root/test.sh   #每分钟执行1次, 默认
-		*/1 * * * * root /bin/bash /root/test.sh   #每分钟执行1次
+		* * * * * /root/test.sh   #每分钟执行1次, 默认
+		*/1 * * * * /root/test.sh   #每分钟执行1次
 		1 0 * * * /root/bin/backup.sh    #在12:01AM运行
 		59 11 * * 1,2,3,4,5 /root/bin/backup.sh    #每个工作日11:59p.m运行
 		59 11 * * 1-5 /root/bin/backup.sh 
